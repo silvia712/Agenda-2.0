@@ -36,7 +36,7 @@ public class Agenda {
 	public static void anadirContactos(String mContactos[][]) {
 
 		Scanner leer = new Scanner(System.in);
-
+	
 		for (int i=0; i<mContactos.length; i++) {
 
 			if (mContactos[i][0].equals("")) {
