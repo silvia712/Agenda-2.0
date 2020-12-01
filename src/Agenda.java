@@ -133,7 +133,6 @@ public class Agenda {
 
 		int opcion, posicion;
 
-		String menu;
 		Scanner leer = new Scanner(System.in);
 
 		String mContactos[][];
@@ -152,7 +151,7 @@ public class Agenda {
 
 			switch (opcion) {
 			case 1:
-				System.out.println("1 - AÑADIR");
+				System.out.println("1 - Aï¿½ADIR");
 				anadirContactos(mContactos);
 				break;
 			case 2:
